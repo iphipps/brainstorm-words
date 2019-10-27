@@ -4,8 +4,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 input[type="text"] {
   padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: absolute;
 }
