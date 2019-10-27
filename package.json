@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "start": "http-server ./",
+    "start": "live-server ./",
     "compile": "tsc ./script.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.5.0",
-    "http-server": "^0.11.1",
+    "live-server": "^1.2.1",
     "typescript": "^3.6.4"
   }
 }
